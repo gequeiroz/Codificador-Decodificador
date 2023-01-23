@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+        
+    <title>Codificador & Decodificador</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="cabecalho">
+            <img src="logoalura.png" alt="logo alura">
+        </div>
+        
+    </header>
+
+    <main class="main">
+
+        <section>
+
+            <textarea class="input-texto" cols="30" rows="6" placeholder="Digite seu texto"></textarea>
+                <div>
+                    <h6 class="informacao">🛈 Somente letras minúsculas e sem acento.</h6>
+                </div>
+            
+                <div class="botoes">
+                    <button class="encriptar" onclick="btnEncriptar ()">Codificar</button>
+                    <button class="desencriptar" onclick="btnDesencriptar ()">Decodificar</button>
+                
+                    <button class="copy">Copiar</button>
+                   
+                </div>
+            
+        </section>
+
+        <section>
+
+            <div class="msg">
+            
+                <textarea class="mensagem" cols="25" rows="12"></textarea>
+            
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="rodape">
+            <h3>Desenvolvedor</h3>
+            <h5>Glebson Queiroz &#174;</h5>
+        </div>    
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
